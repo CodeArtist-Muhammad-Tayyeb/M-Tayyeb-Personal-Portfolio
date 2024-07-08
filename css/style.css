@@ -292,7 +292,7 @@ a:hover {
 }
 
 #call-to-action {
-  background: #02bdd5;
+  background: #000000;
   background-size: cover;
   background-attachment: fixed;
   padding: 80px 0;
@@ -320,7 +320,7 @@ a:hover {
 #call-to-action .block .btn-contact {
   background: #fff;
   border: 2px solid #fff;
-  color: #02bdd5;
+  color: #000;
   padding: 15px 34px;
   margin-top: 20px;
   font-size: 12px;
@@ -335,7 +335,7 @@ a:hover {
 }
 #call-to-action .block .btn-contact:hover {
   color: #fff;
-  background: #02bdd5;
+  background: #000000;
   
 }
 
@@ -458,7 +458,7 @@ a:hover {
 }
 
 figure {
-  background: #fff;
+  background: #404040;
   margin-bottom: 45px;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.04), 0 2px 10px 0 rgba(0, 0, 0, 0.06);
 }
@@ -467,6 +467,8 @@ figure .img-wrapper {
   overflow: hidden;
 }
 figure img {
+  /* width: 400px !important ; */
+  /* height: 300px !important ; */
   transform: scale3d(1, 1, 1);
   transition: transform 400ms;
 }
@@ -496,7 +498,7 @@ figure .overlay a {
   color: #fff;
   padding: 10px 23px;
   line-height: 1;
-  border: 1px solid #fff;
+  border: 1px solid #006f7e;
   border-radius: 0px;
   margin: 4px;
   transform: scale3d(0, 0, 0);
@@ -732,7 +734,7 @@ article {
 #contact-section .contact-form .btn-send {
   color: #fff;
   outline: none;
-  background: #02bdd5;
+  background: #080909;
   transition: all linear 0.2s;
   border-color: #02bdd5;
   border-radius: 0;
