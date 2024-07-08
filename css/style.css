@@ -354,8 +354,25 @@ a:hover {
 #about .block p {
   color: #aaa8a8;
   font-size: 16px;
-  line-height: 28px;
+  line-height: 35px;
   margin-bottom: 35px;
+
+}
+#nav-button1{
+  background-color: #009ee3;
+  border-radius: 30px;
+  width: 150px !important;
+  color: #FFFFFF !important; 
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.78);
+-webkit-box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.78);
+-moz-box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.78);
+
+}
+#nav-button1:hover {
+  transform: scale(1.05);
+  background-color: #00577c;
 }
 #about .block img {
   max-width: 100%;
@@ -395,9 +412,11 @@ a:hover {
   text-transform:capitalize !important;
 
 }
+
 .works {
   padding: 80px 0;
   background: #FCFCFC;
+  background: #000000;
 }
 .works .block {
   position: relative;
